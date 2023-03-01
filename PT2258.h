@@ -19,8 +19,12 @@
 #define  CHANNEL6_VOLUME_STEP_10  0xa0
 #define  MASTER_VOLUME_1STEP     0xe0
 #define  MASTER_VOLUME_10STEP    0xd0
-#define  MUTE                    0x08
+#define  MUTE                    0xf8
 #define  SYSTEM_RESET            0xc0 
+// #define PT_ADDR                  0x80
+// #define PT_ADDR                  0x84
+#define PT_ADDR                  0x88
+// #define PT_ADDR                  0x8c
 
 
 #ifndef PT2258_h
@@ -40,3 +44,4 @@ public:
 };
 
 #endif
+
