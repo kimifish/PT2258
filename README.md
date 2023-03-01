@@ -1,3 +1,3 @@
-# PT2258
-Arduino Library for PT2258  digital volume control
+# PT2258 Volume Controller
+Arduino sketch for PT2258  digital volume control
 
